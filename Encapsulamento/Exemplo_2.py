@@ -6,7 +6,7 @@ class Conta:
     def	saldo(self):
         return	self._saldo
 
-	@saldo.setter
+    @saldo.setter
     def	saldo(self,	saldo):
         if(saldo	<	0):
             print("O Saldo não pode ser negativo")
